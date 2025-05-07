@@ -1,0 +1,42 @@
+@import url("./reset.css");
+
+/* Basic grid wireframe setup */
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    grid-column: span 12;
+    background-color: #f0f0f0;
+    padding: 16px;
+}
+
+.header {
+    grid-column: span 12;
+    background-color: #dcdcdc;
+    padding: 16px;
+}
+
+.sidebar {
+    grid-column: span 3;
+    background-color: #e0e0e0;
+    padding: 16px;
+}
+
+.main-content {
+    grid-column: span 9;
+    background-color: #ffffff;
+    padding: 16px;
+}
+
+.footer {
+    grid-column: span 12;
+    background-color: #dcdcdc;
+    padding: 16px;
+}
